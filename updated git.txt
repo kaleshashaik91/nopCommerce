@@ -1,0 +1,35 @@
+project workspace :  C:\Users\Kaleshah\eclipse-workspace\nopCommerce
+
+Git hub repository : https://github.com/kaleshashaik91/nopCommerce.git
+
+Commands
+------------------
+git init ----> create an empty local repository
+git remote add origin "https://github.com/kaleshashaik91/nopCommerce.git"
+git status -------> it will show the untracked files which are not in the repository
+git add -A --------> specifying the all the files to be added into the staging area
+git add -foldername----------> specific folder 
+
+first time(before doing commit we need to execute below commands only one time )
+git config --global user.name "kalesha"
+git config  --global user.email "kaleshashaik.mail@gmail.com"
+
+git commit -m "nopCommerce project initialization"-------------------- it will send all your workspace files to git
+repository.
+
+git push -u origin master------? this will send all files from git to github repository
+
+-----------------------------------------------------------------------------
+git pull origin master -----------> this will send all files from github(remote) repository to git(local) repository
+and it means that if any changes made by other tester in github repository
+
+---------------------------------------------------------------------------------
+2nd round
+-----
+status
+add
+commit
+git push -u origin master
+
+
+
